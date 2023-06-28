@@ -1,0 +1,12 @@
+<template>
+    <lightning-modal-header label="Response"></lightning-modal-header>
+
+    <lightning-modal-body>
+        Country: {country}
+        <lightning-textarea name="responseInp" disabled value={resBody} label="Response"></lightning-textarea>
+    </lightning-modal-body>
+
+    <lightning-modal-footer>
+        <lightning-button label="Close" onclick={handleOptionClick}></lightning-button>
+    </lightning-modal-footer>
+</template>
